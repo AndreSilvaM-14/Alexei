@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document with Sticky Footer (Flexbox) */
+@import url(https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
+
+
+header {
+  background-color: #36592E;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Arvo', serif;
+  font-weight: 700;
+  font-size: 50pt;
+  padding-top: 10px;
+  margin-top: 0;
+}
+
+nav ul {
+  text-align: center;
+  background-color: #36592E;
+  padding: 20px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  background-color: #79A370;
+  width: 150px;
+  padding: 3px;
+  text-align: center;
+  border-radius: 30px;
+  min-width: 100px;
+  margin: 0 20px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  text-decoration: none;
+  color: #263A00;
+}
+
+nav ul li:hover {
+  background-color: #487700;
+  color: white;
+}
+
+.dos_col {
+  	display: flex;
+ 	gap: 20px;
+  	justify-content: center;
+	background-color: #79A370;
+}
+
+.dos_col h2 {
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  
+}
+
+.dos_col_Fotos {
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  
+}
+.hola  {
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+}
+
+.Div_yo_ese  {
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+}
+
+.dos_col_Fotos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+dos_col_Fotos h2 {
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+}
+
+body {
+  background-color: #95BF8A;
+  color: #262223;
+}
+
+#Yo_ese {
+  height: 400px;
+  width: auto;
+  border-radius: 400px;
+  border: 20px solid white;
+}
+
+.Div_yo_ese {
+  background-color: #79A370;
+	color: white;
+  width: 30%;
+}
+
+.Div_yo_ese img {
+  text-align: center;
+}
+
+.Div_yo_ese h4,
+.Div_yo_ese h3 {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.icon_yo_ese {
+  width: auto;
+  height: 20px;
+}
+
+.etiwueta_sec_yo {
+  color: white;
+  background-color: #36592E;
+  width: 50%;
+  padding: 5px 0 5px 30px;
+  text-align: left;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.hola {
+  background-color:#79A370;
+  color: white;
+  width: 75%;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.hola_fotos {
+  background-color:#79A370;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+
+.barra {
+  width: 50px;
+  border-radius: 5px;
+}
+
+
+
+footer {
+  background-color: #36592E;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  /* Push footer to bottom */
+  margin-top: auto;
+}
+
+.icon_footer {
+  width: 40px;
+  height: auto;
+  display: inline-block;
+}
+
